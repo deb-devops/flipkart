@@ -63,12 +63,12 @@
     <repository>
      <id>nexus</id>
      <name>flipkart-releases repo</name>
-     <url>http://13.127.50.211:8081/repository/flipkart-releases/</url>
+     <url>http://13.232.48.250:8082/repository/flipkart-releases/</url>
     </repository>
     <snapshotRepository>
      <id>nexus</id>
      <name>flipkart-snapshot repo</name>
-     <url>http://13.127.50.211:8081/repository/flipkart-snapshot/</url>
+     <url>http://13.232.48.250:8082/repository/flipkart-snapshot/</url>
     </snapshotRepository>
    </distributionManagement>  
   
