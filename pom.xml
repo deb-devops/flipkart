@@ -19,20 +19,19 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-  <!--
   <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
+      <url>http://13.232.48.250:8082/repository/proxy-repo/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
+      <url>http://13.232.48.250:8082/repository/proxy-repo/</url>
     </pluginRepository>
-  </pluginRepositories>-->
+  </pluginRepositories>
 
   <dependencies>
     <dependency>
