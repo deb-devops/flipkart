@@ -6,7 +6,7 @@
 
   <groupId>java</groupId>
   <artifactId>wardeployment</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>3.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>wardeployment Maven Webapp</name>
@@ -18,20 +18,20 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+  <!--
+  <properties>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>5.1.2.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://15.206.69.51:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> -->
 
-  <repositories>
-    <repository>
-      <id>nexus</id>
-      <url>http://13.232.48.250:8082/repository/proxy-repo/</url>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>nexus</id>
-      <url>http://13.232.48.250:8082/repository/proxy-repo/</url>
-    </pluginRepository>
-  </pluginRepositories>
+	</properties>
 
   <dependencies>
     <dependency>
@@ -42,34 +42,32 @@
     </dependency>
   </dependencies>
 
-  <!--
   <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
+      <url>http://52.66.10.140:8082/repository/proxy-repo/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
+      <url>http://52.66.10.140:8082/repository/proxy-repo/</url>
     </pluginRepository>
-  </pluginRepositories> -->
-
+  </pluginRepositories>
 
   <distributionManagement>
     <repository>
      <id>nexus</id>
      <name>flipkart-releases repo</name>
-     <url>http://13.232.48.250:8082/repository/flipkart-releases/</url>
+     <url>http://52.66.10.140:8082/repository/flipkart-releases/</url>
     </repository>
     <snapshotRepository>
      <id>nexus</id>
      <name>flipkart-snapshot repo</name>
-     <url>http://13.232.48.250:8082/repository/flipkart-snapshot/</url>
+     <url>http://52.66.10.140:8082/repository/flipkart-snapshot/</url>
     </snapshotRepository>
-   </distributionManagement>  
+   </distributionManagement>
   
   <build>
     <finalName>wardeployment</finalName>
