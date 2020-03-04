@@ -33,21 +33,6 @@
 
 	</properties>
 
-  <!--
-  <repositories>
-    <repository>
-      <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
-    </pluginRepository>
-  </pluginRepositories>-->
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -60,30 +45,29 @@
   <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
+      <url>http://52.66.10.140:8082/repository/proxy-repo/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>nexus</id>
-      <url>http://13.127.50.211:8081/repository/proxy-repo/</url>
+      <url>http://52.66.10.140:8082/repository/proxy-repo/</url>
     </pluginRepository>
   </pluginRepositories>
-
 
   <distributionManagement>
     <repository>
      <id>nexus</id>
      <name>flipkart-releases repo</name>
-     <url>http://13.127.50.211:8081/repository/flipkart-releases/</url>
+     <url>http://52.66.10.140:8082/repository/flipkart-releases/</url>
     </repository>
     <snapshotRepository>
      <id>nexus</id>
      <name>flipkart-snapshot repo</name>
-     <url>http://13.127.50.211:8081/repository/flipkart-snapshot/</url>
+     <url>http://52.66.10.140:8082/repository/flipkart-snapshot/</url>
     </snapshotRepository>
-   </distributionManagement>  
+   </distributionManagement>
   
   <build>
     <finalName>wardeployment</finalName>
