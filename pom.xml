@@ -6,7 +6,7 @@
 
   <groupId>java</groupId>
   <artifactId>wardeployment</artifactId>
-  <version>5.0</version>
+  <version>6.0</version>
   <packaging>war</packaging>
 
   <name>wardeployment Maven Webapp</name>
