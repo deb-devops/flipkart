@@ -6,7 +6,7 @@
 
   <groupId>java</groupId>
   <artifactId>wardeployment</artifactId>
-  <version>7.0-SNAPSHOT</version>
+  <version>5.0</version>
   <packaging>war</packaging>
 
   <name>wardeployment Maven Webapp</name>
@@ -44,14 +44,14 @@
   <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://13.126.74.131:8081/repository/proxy-repo/</url>
+      <url>http://13.232.18.35:8081/repository/proxy-repo/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>nexus</id>
-      <url>http://13.126.74.131:8081/repository/proxy-repo/</url>
+      <url>http://13.232.18.35:8081/repository/proxy-repo/</url>
     </pluginRepository>
   </pluginRepositories>
 
@@ -59,12 +59,12 @@
     <repository>
      <id>nexus</id>
      <name>flipkart-releases repo</name>
-     <url>http://13.126.74.131:8081/repository/flipkart-releases/</url>
+     <url>http://13.232.18.35:8081/repository/flipkart-releases/</url>
     </repository>
     <snapshotRepository>
      <id>nexus</id>
      <name>flipkart-snapshot repo</name>
-     <url>http://13.126.74.131:8081/repository/flipkart-snapshot/</url>
+     <url>http://13.232.18.35:8081/repository/flipkart-snapshot/</url>
     </snapshotRepository>
    </distributionManagement>
   
