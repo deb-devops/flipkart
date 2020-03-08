@@ -41,6 +41,7 @@
     </dependency>
   </dependencies>
 
+<!--	
   <repositories>
     <repository>
       <id>nexus</id>
@@ -66,7 +67,7 @@
      <name>flipkart-snapshot repo</name>
      <url>http://13.233.168.50:8081/repository/flipkart-snapshot/</url>
     </snapshotRepository>
-   </distributionManagement>
+   </distributionManagement> -->
   
   <build>
     <finalName>wardeployment</finalName>
